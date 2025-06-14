@@ -2,10 +2,6 @@
 
 REST API для поиска железнодорожных билетов, использующее API РЖД.
 
-## Требования
-
-- Go 1.21 или выше
-
 ## Установка
 
 1. Перейдите в директорию backend:
@@ -21,7 +17,7 @@ go mod download
 ## Запуск
 
 ### Запуск rzd-api
-
+gi
 ```bash
 cd rzd-api
 docker run -p 8000:8000 --rm --name rzd-api -v ${PWD}:/app-it pavelsr/rzd-api
